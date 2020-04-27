@@ -32,10 +32,10 @@ a {
   text-align: center;
   font-style: oblique;
   text-shadow:
-  -1px -1px 0 #000,
-  1px -1px 0 #000,
-  -1px 1px 0 #000,
-   1px 1px 0 #000;
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .jumbotron h1 {
@@ -160,25 +160,35 @@ header {
   height: 100px;
 }
 
-.contact-form {
-  padding-top: 100px;
+
+/* fomrulir */
+.contact {
+  margin-top: 100px;
+}
+
+.contact h3 {
+  font-size: 28px;
+  border-bottom: 2px solid #dee7ec;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
 }
 
 /* Tambahkan CSS untuk tags <input> dan <textarea> */
-input, textarea {
+input,
+textarea {
   width: 400px;
   margin-top: 10px;
   margin-bottom: 30px;
-  padding: 20px;
   font-size: 18px;
+  padding: 20px;
   border: 1px solid #dee7ec;
 }
 
-/* Tambahkan CSS untuk contact-submit */
 .contact-submit:hover {
-  background-color: #dee7ec;
-  color: #6ab04c;
+  background-color: gray;
+  color: white;
 }
+
 
 footer p {
   color: #b3aeb5;
