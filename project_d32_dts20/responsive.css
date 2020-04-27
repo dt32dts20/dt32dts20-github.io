@@ -1,0 +1,61 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .profil {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .jumbotron h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .profil {
+    width: 100%;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+
+  .jumbotron {
+    text-align: left;
+  }
+
+  /* Tambahkan CSS untuk header-right */
+  .header-right {
+    display: none;
+  }
+
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon {
+    display: block;
+  }
+
+  .jumbotron h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .content-right,
+  .content-left {
+    width: 100%;
+  }
+
+}
